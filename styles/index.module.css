@@ -1,9 +1,7 @@
-.main_height
-{
+.main_height {
     min-height: 100vh;
 }
 
-.main_head
-{
+.main_head {
     height: auto;
 }

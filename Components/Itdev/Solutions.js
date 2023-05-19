@@ -8,27 +8,28 @@ function Solutions() {
   const [one, setOne] = useState(1);
   const changeText =
     one === 1
-      ? "We help financial institutions, wealth management and banking companies transform their offerings with custom software development services for their customers’ emerging needs, enrich the security of end-products, speed up time to market, find valuable business insights and compete by means of technology."
+      ? "Tell us about your project and what you hope to achieve. We'll work with you to define your business scope and project expectations and help you decide the best way to proceed."
       : one === 2
-      ? "Bringing together technologies and expertise that make a difference – at Selteq, we know the future is now. Innovation trumps standard processes when it comes to the healthcare technology arena."
+      ? "Meet your dedicated team of skilled developers & engineers ready to work on your project with transparent communication. Our team will collaborate throughout development to ensure your vision becomes a reality."
       : one === 3
-      ? "At Selteq, we are passionate about education and aim to unleash the power of digital learning – empowering educators to manage their classrooms from anywhere. We have the right skills, expertise, and experience to help educators better engage students using leading-edge technology."
+      ? "Our team of experts will take the reins and deliver secure software with quality, reliability, & efficiency on time. We use the latest development methodologies to ensure the best possible results."
       : one === 4
-      ? "We build ecommerce platform dedicated to your needs or customize an existing solution to help scale your business. Ecommerce solutions powered by Selteq can be optimized for flexibility, scalability, long term adaptability, reliability and security while keeping pace with the evolving needs and possibilities for online businesses."
-      : "Are you running a business without an ERP system? Since data is the lifeblood of every modern company, ERP makes it easier to collect, organize, analyse, and distribute this information to every individual and system that needs it to best achieve their role and responsibility.";
+      ? "We thoroughly test and check your project for any bugs, errors, or issues to ensure the highest quality and performance. Our team of experts will work tirelessly to ensure your project meets your expectations before delivery."
+      : "Provide regular feedback and expect on-time delivery of your project. We strive to exceed your expectations and deliver a quality product that meets your needs. Take advantage of our 24/7 expert assistance to get the most out of our service.";
 
   return (
     <>
       <div className="col-md-12 p-0 background_hei display_h">
         <div className="container display_h  text-center pt-5 ">
-          <p className={styles.solution_heading}>SOLUTIONS</p>
+          <p className={styles.solution_heading}>Selteq’s Premium IT Outsourcing Services</p>
+          <p>How to Outsource with Us?</p>
           <div className="col-md-12 px-5">
             <div className="row mt-5 background_height">
               <div
                 className="col-md zoomdown mt-2"
                 onMouseEnter={() => setOne(1)}
               >
-                <Link className="text_dec_n" href="/banking-and-finance">
+                {/* <Link className="text_dec_n" href="/banking-and-finance"> */}
                   <div className="display_hover">
                     <div className="col-md-12  background_card_icons">
                       {/* <i id="icons_color" class="fas fa-id-card"></i> */}
@@ -43,12 +44,12 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">FinTech</h6>
-                </Link>
+                  <h6 className="fin ">Share Your Requirements</h6>
+                {/* </Link> */}
               </div>
 
               <div className="col-md zoomdown" onMouseEnter={() => setOne(2)}>
-                <Link className="text_dec_n" href="/healthcare-and-medical">
+                {/* <Link className="text_dec_n" href="/healthcare-and-medical"> */}
                   <div className="display_hover">
                     <div className="col-md-12  background_card_icons padd">
                       {/* <i id="icons_color"  class="fas fa-heartbeat"></i> */}
@@ -67,11 +68,11 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">HEALTHCARE & MEDICAL</h6>
-                </Link>
+                  <h6 className="fin ">Meet Your Project Team</h6>
+                {/* </Link> */}
               </div>
               <div className="col-md zoomdown" onMouseEnter={() => setOne(3)}>
-                <Link className="text_dec_n" href="/education">
+                {/* <Link className="text_dec_n" href="/education"> */}
                   <div className="display_hover">
                     <div className="col-md-12   background_card_icons">
                       <svg
@@ -88,11 +89,11 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">EDUCATION</h6>
-                </Link>
+                  <h6 className="fin ">Start Development</h6>
+                {/* </Link> */}
               </div>
               <div className="col-md zoomdown" onMouseEnter={() => setOne(4)}>
-                <Link className="text_dec_n" href="/e-commerce">
+                {/* <Link className="text_dec_n" href="/e-commerce"> */}
                   <div className="display_hover">
                     <div className="col-md-12  background_card_icons padd">
                       {/* <i id="icons_color" class="fas fa-id-card"></i> */}
@@ -111,14 +112,14 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">E-COMMERCE</h6>
-                </Link>
+                  <h6 className="fin ">Quality Assurance and Testing</h6>
+                {/* </Link> */}
               </div>
               <div
                 className="col-md zoomdown mt-1"
                 onMouseEnter={() => setOne(5)}
               >
-                <Link className="text_dec_n" href="/erp">
+                {/* <Link className="text_dec_n" href="/erp"> */}
                   <div className="display_hover">
                     <div className="col-md-12  background_card_icons">
                       {/* <i id="icons_color" class="fas fa-id-card"></i> */}
@@ -133,8 +134,8 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">ERP</h6>
-                </Link>
+                  <h6 className="fin ">On-Time Delivery</h6>
+                {/* </Link> */}
               </div>
             </div>
           </div>
@@ -150,7 +151,8 @@ function Solutions() {
         {/* for mobile  */}
         <div className="col-md-12 display_pc back_mob_sol text-center pt-4 mt-1 pb-4">
           <div className="col-md-12 p-0">
-            <p className={styles.solution_heading_mob}>SOLUTIONS</p>
+          <p className={styles.solution_heading_mob}>Selteq’s Premium IT Outsourcing Services</p>
+            <p>How to Outsource with Us?</p>
             <div className="col-md-12 pt-3">
               <img
                 src="../images/educaton.png"

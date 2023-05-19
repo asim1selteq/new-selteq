@@ -148,7 +148,7 @@ export default function Newheader() {
                         <Link className="text_dec_link" href="/it-services">
                         {" "}
                         <div   class="abc" >
-                          IT Services
+                        IT Outsourcing 
                         </div>{" "}
                         </Link>
                     

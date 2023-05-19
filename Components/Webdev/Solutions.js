@@ -43,7 +43,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">FinTech</h6>
+                  <h6 className="fin">FinTech</h6>
                 </Link>
               </div>
 
